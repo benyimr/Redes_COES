@@ -142,6 +142,10 @@ ggnet2(net_2014, size = 6, mode = "fruchtermanreingold",  shape = "Línea", colo
   geom_text(aes(label = label),position = position_nudge(y = +0.03)) + ggthemes::theme_fivethirtyeight() +
   scale_shape_manual(values=c(15,16,17,18), name = "Línea") + theme(legend.box.background = element_rect(colour = "black")) +
   labs(title = "COES 2014", caption = "Fuente: Información interna Centro COES, 2014-2018.")
+ggsave(file = "Figure_01.png",
+       path = "/Users/benjaminmunozrojas/pCloud Sync/7_COES/5_Otros/Redes_COES",
+       device = "png", dpi=1200, scale = 3, units = "cm" , width = 12, height = 8)
+
 
 set.seed(10052016)
 ggnet2(net_2015, size = 6, mode = "fruchtermanreingold",  shape = "Línea", color = "Línea", edge.size = 0.5,
@@ -149,6 +153,9 @@ ggnet2(net_2015, size = 6, mode = "fruchtermanreingold",  shape = "Línea", colo
   geom_text(aes(label = label),position = position_nudge(y = +0.03)) + ggthemes::theme_fivethirtyeight() +
   scale_shape_manual(values=c(15,16,17,18), name = "Línea") + theme(legend.box.background = element_rect(colour = "black")) +
   labs(title = "COES 2015", caption = "Fuente: Información interna Centro COES, 2014-2018.")
+ggsave(file = "Figure_02.png",
+       path = "/Users/benjaminmunozrojas/pCloud Sync/7_COES/5_Otros/Redes_COES",
+       device = "png", dpi=1200, scale = 3, units = "cm" , width = 12, height = 8)
 
 set.seed(10052016)
 ggnet2(net_2016, size = 6, mode = "fruchtermanreingold",  shape = "Línea", color = "Línea", edge.size = 0.5,
@@ -156,6 +163,9 @@ ggnet2(net_2016, size = 6, mode = "fruchtermanreingold",  shape = "Línea", colo
   geom_text(aes(label = label),position = position_nudge(y = +0.03)) + ggthemes::theme_fivethirtyeight() +
   scale_shape_manual(values=c(15,16,17,18), name = "Línea") + theme(legend.box.background = element_rect(colour = "black")) +
   labs(title = "COES 2016", caption = "Fuente: Información interna Centro COES, 2014-2018.")
+ggsave(file = "Figure_03.png",
+       path = "/Users/benjaminmunozrojas/pCloud Sync/7_COES/5_Otros/Redes_COES",
+       device = "png", dpi=1200, scale = 3, units = "cm" , width = 12, height = 8)
 
 set.seed(10052016)
 ggnet2(net_2017, size = 6, mode = "fruchtermanreingold",  shape = "Línea", color = "Línea", edge.size = 0.5,
@@ -163,6 +173,9 @@ ggnet2(net_2017, size = 6, mode = "fruchtermanreingold",  shape = "Línea", colo
   geom_text(aes(label = label),position = position_nudge(y = +0.03)) + ggthemes::theme_fivethirtyeight() +
   scale_shape_manual(values=c(15,16,17,18), name = "Línea") + theme(legend.box.background = element_rect(colour = "black")) +
   labs(title = "COES 2017", caption = "Fuente: Información interna Centro COES, 2014-2018.")
+ggsave(file = "Figure_04.png",
+       path = "/Users/benjaminmunozrojas/pCloud Sync/7_COES/5_Otros/Redes_COES",
+       device = "png", dpi=1200, scale = 3, units = "cm" , width = 12, height = 8)
 
 set.seed(10052016)
 ggnet2(net_2018, size = 6, mode = "fruchtermanreingold",  shape = "Línea", color = "Línea", edge.size = 0.5,
@@ -170,6 +183,9 @@ ggnet2(net_2018, size = 6, mode = "fruchtermanreingold",  shape = "Línea", colo
   geom_text(aes(label = label),position = position_nudge(y = +0.03)) + ggthemes::theme_fivethirtyeight() +
   scale_shape_manual(values=c(15,16,17,18), name = "Línea") + theme(legend.box.background = element_rect(colour = "black")) +
   labs(title = "COES 2018", caption = "Fuente: Información interna Centro COES, 2014-2018.")
+ggsave(file = "Figure_05.png",
+       path = "/Users/benjaminmunozrojas/pCloud Sync/7_COES/5_Otros/Redes_COES",
+       device = "png", dpi=1200, scale = 3, units = "cm" , width = 12, height = 8)
 
 ######################################################################################################################################
 set.seed(10052016)
@@ -178,6 +194,9 @@ ggnet2(net_2014, size = 6, mode = "circle",  shape = "Línea", color = "Línea",
   geom_text(aes(label = label),position = position_nudge(y = +0.03)) + ggthemes::theme_fivethirtyeight() +
   scale_shape_manual(values=c(15,16,17,18), name = "Línea") + theme(legend.box.background = element_rect(colour = "black")) +
   labs(title = "COES 2014", caption = "Fuente: Información interna Centro COES, 2014-2018.")
+ggsave(file = "Figure1.png",
+       path = "/Users/benjaminmunozrojas/pCloud Sync/7_COES/5_Otros/Redes_COES",
+       device = "png", dpi=1200, scale = 3, units = "cm" , width = 12, height = 8)
 
 set.seed(10052016)
 ggnet2(net_2015, size = 6, mode = "circle",  shape = "Línea", color = "Línea", edge.size = 0.5,
@@ -185,6 +204,9 @@ ggnet2(net_2015, size = 6, mode = "circle",  shape = "Línea", color = "Línea",
   geom_text(aes(label = label),position = position_nudge(y = +0.03)) + ggthemes::theme_fivethirtyeight() +
   scale_shape_manual(values=c(15,16,17,18), name = "Línea") + theme(legend.box.background = element_rect(colour = "black")) +
   labs(title = "COES 2015", caption = "Fuente: Información interna Centro COES, 2014-2018.")
+ggsave(file = "Figure2.png",
+       path = "/Users/benjaminmunozrojas/pCloud Sync/7_COES/5_Otros/Redes_COES",
+       device = "png", dpi=1200, scale = 3, units = "cm" , width = 12, height = 8)
 
 set.seed(10052016)
 ggnet2(net_2016, size = 6, mode = "circle",  shape = "Línea", color = "Línea", edge.size = 0.5,
@@ -192,6 +214,9 @@ ggnet2(net_2016, size = 6, mode = "circle",  shape = "Línea", color = "Línea",
   geom_text(aes(label = label),position = position_nudge(y = +0.03)) + ggthemes::theme_fivethirtyeight() +
   scale_shape_manual(values=c(15,16,17,18), name = "Línea") + theme(legend.box.background = element_rect(colour = "black")) +
   labs(title = "COES 2016", caption = "Fuente: Información interna Centro COES, 2014-2018.")
+ggsave(file = "Figure3.png",
+       path = "/Users/benjaminmunozrojas/pCloud Sync/7_COES/5_Otros/Redes_COES",
+       device = "png", dpi=1200, scale = 3, units = "cm" , width = 12, height = 8)
 
 set.seed(10052016)
 ggnet2(net_2017, size = 6, mode = "circle",  shape = "Línea", color = "Línea", edge.size = 0.5,
@@ -199,6 +224,9 @@ ggnet2(net_2017, size = 6, mode = "circle",  shape = "Línea", color = "Línea",
   geom_text(aes(label = label),position = position_nudge(y = +0.03)) + ggthemes::theme_fivethirtyeight() +
   scale_shape_manual(values=c(15,16,17,18), name = "Línea") + theme(legend.box.background = element_rect(colour = "black")) +
   labs(title = "COES 2017", caption = "Fuente: Información interna Centro COES, 2014-2018.")
+ggsave(file = "Figure4.png",
+       path = "/Users/benjaminmunozrojas/pCloud Sync/7_COES/5_Otros/Redes_COES",
+       device = "png", dpi=1200, scale = 3, units = "cm" , width = 12, height = 8)
 
 set.seed(10052016)
 ggnet2(net_2018, size = 6, mode = "circle",  shape = "Línea", color = "Línea", edge.size = 0.5,
@@ -206,6 +234,9 @@ ggnet2(net_2018, size = 6, mode = "circle",  shape = "Línea", color = "Línea",
   geom_text(aes(label = label),position = position_nudge(y = +0.03)) + ggthemes::theme_fivethirtyeight() +
   scale_shape_manual(values=c(15,16,17,18), name = "Línea") + theme(legend.box.background = element_rect(colour = "black")) +
   labs(title = "COES 2018", caption = "Fuente: Información interna Centro COES, 2014-2018.")
+ggsave(file = "Figure5.png",
+       path = "/Users/benjaminmunozrojas/pCloud Sync/7_COES/5_Otros/Redes_COES",
+       device = "png", dpi=1200, scale = 3, units = "cm" , width = 12, height = 8)
 
 
 #circle
